@@ -1,0 +1,9 @@
+{
+  "name": "vecteor",
+  "version": "1.0.0",
+  "description": "A vector package",
+  "main": "vecteor.js",
+  "scripts": {},
+  "author": "0xffructose",
+  "license": "ISC"
+}
