@@ -59,11 +59,6 @@ class Vector2D {
     dot(v1) {
         if (v1.__proto__.constructor.name != this.constructor.name) throw new Error("'v1' must be Vector2D");
         return this.x * v1.x + this.y * v1.y; 
-    }   
-    
-    cross(v1) {
-        if (v1.__proto__.constructor.name != this.constructor.name) throw new Error("'v1' must be Vector2D");
-        return this.x * v1.y - this.y * v1.x; 
     }
 
     static rad_to_deg(rad) {
